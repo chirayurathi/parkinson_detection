@@ -46,3 +46,8 @@ changes in orientation and intensity.
 An image of the Substantia Nigra region in the MRI of size 512x512 is taken as an input by the
 convolutional neural network which can extract the features from the image autonomously for
 the classification of the image into the classes as PD or control.
+
+## About the dataset
+This model was developed based on the dataset of MRI images provided by the National Institute for Research and Development in Informatics, Romania. Since anatomic MRI is presently not able to directly discern neuronal loss in Parkinson’s Disease (PD), studying the associated functional connectivity (FC) changes seems a promising approach toward developing non-invasive and non-radioactive neuroimaging markers for this disease. While several groups have reported such FC changes in PD, there are also significant discrepancies between studies. Investigating the reproducibility of PD-related FC changes on independent datasets is therefore of crucial importance.
+
+The data are comprised of 27 PD patients and 16 age-matched normal controls in the Neurocon dataset, and 20 PD patients and 20 age-matched controls in the Tao Wu dataset. Both sets contain T1 and resting-state scans.
